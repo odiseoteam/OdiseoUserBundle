@@ -18,7 +18,8 @@
 		"php" : ">=5.3.9",
         "symfony/symfony": "^3.2",
         "doctrine/orm": "^2.5",
-        "doctrine/doctrine-bundle": "^1.6"
+        "doctrine/doctrine-bundle": "^1.6",
+        "sylius/user-bundle" : "^1.0@beta"
 	},
 	"autoload" : {
 		"psr-4": { "Odiseo\\Bundle\\UserBundle\\": "" }
