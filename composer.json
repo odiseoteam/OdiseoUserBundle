@@ -21,6 +21,8 @@
         "doctrine/doctrine-bundle": "^1.6",
         "sylius/user-bundle" : "^1.0@beta"
 	},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 	"autoload" : {
 		"psr-4": { "Odiseo\\Bundle\\UserBundle\\": "" }
 	}
