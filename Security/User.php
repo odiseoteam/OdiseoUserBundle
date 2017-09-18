@@ -12,7 +12,7 @@ class User extends BaseUser implements UserInterface
     /**
      * {@inheritdoc}
      */
-    public function setUsername($username)
+    public function setUsername(?string $username): void
     {
         parent::setUsername($username);
 
@@ -22,7 +22,7 @@ class User extends BaseUser implements UserInterface
     /**
      * {@inheritdoc}
      */
-    public function setEmail($email)
+    public function setEmail(?string $email): void
     {
         parent::setEmail($email);
 
