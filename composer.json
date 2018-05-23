@@ -7,7 +7,7 @@
 		"user",
 		"management"
 	],
-	"homepage" : "http://odiseo.com.ar",
+	"homepage" : "https://odiseo.com.ar",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "Odiseo Team",
@@ -15,11 +15,10 @@
 		}
 	],
 	"require" : {
-		"php" : ">=5.3.9",
-        "symfony/symfony": "^3.2",
-        "doctrine/orm": "^2.5",
-        "doctrine/doctrine-bundle": "^1.6",
-        "sylius/user-bundle" : "^1.0@beta"
+		"php" : "^7.1.3",
+		"symfony/framework-bundle": "^4.0",
+		"symfony/orm-pack": "^1.0",
+        "sylius/user-bundle" : "^1.2@dev"
 	},
     "minimum-stability": "dev",
     "prefer-stable": true,
